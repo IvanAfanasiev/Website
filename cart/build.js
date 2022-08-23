@@ -19,6 +19,9 @@ function SetCar(){
     })
 }
 
+let token = "";
+let chatID = "";
+
 function SendData(){
     
     let data_to_send = "";
@@ -32,7 +35,7 @@ function SendData(){
     // модель убрать
 
 
-    const url = "https://api.telegram.org/bot5557253072:AAFF3k2RRENEd7C5GCH6Z2zA04Nl6zHLqQk/sendMessage?chat_id=-769067740&text=";
+    const url = "https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chatID + "&text=";
     let xhttp = new XMLHttpRequest();
     xhttp.open("GET", url + data_to_send, true);
     xhttp.send();
