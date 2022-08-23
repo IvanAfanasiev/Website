@@ -1,0 +1,92 @@
+{
+    "RENAULT CLIO HATCHBACK":
+    { 
+        "rocznik":          2013,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "A",
+        "Silnik":           "dobry",
+        
+        "name":             "Renault Clio Hatchback",
+        "price":            200,
+        "description":      "the first car",
+        "img":              "../images/osobowy/renault_clio_hatchback_2013_new.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    },
+    "RENAULT CLIO KOMBI":
+    { 
+        "rocznik":          2013,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "A1",
+        "Silnik":           "dobry",
+
+        "name":             "Renault Clio Kombi",
+        "price":            230,
+        "description":      "2nd car",
+        "img":              "../images/osobowy/renault_clio_kombi_new.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    },
+    "RENAULT CAPTUR":
+    { 
+        "rocznik":          2013,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "A1",
+        "Silnik":           "dobry",
+
+        "name":             "Renault Captur",
+        "price":            230,
+        "description":      "car 3",
+        "img":              "../images/osobowy/captur_new.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    },
+    "RENAULT MEGANE HATCHBACK":
+    { 
+        "rocznik":          2016,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "B",
+        "Silnik":           "dobry",
+
+        "name":             "Renault Megane Hatchback",
+        "price":            230,
+        "description":      "car IV",
+        "img":              "../images/osobowy/renault_megane_hatchback_new_pl.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    },
+    "RENAULT MEGANE KOMBI":
+    { 
+        "rocznik":          2014,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "B",
+        "Silnik":           "dobry",
+
+        "name":             "Renault Megane Kombi",
+        "price":            230,
+        "description":      "car",
+        "img":              "../images/osobowy/renault_megane_kombi_2014_new.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    }
+}

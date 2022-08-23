@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*
+{
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+:root
+{
+    --clricons:  #00b3b9;    /*сделать для НОЧНОГО РЕЖИМА*/
+    --clrnght:  #222327;    /*сделать для НОЧНОГО РЕЖИМА*/
+    --clrdy:    #eeeeee;    /*сделать для ДНЕВНОГО РЕЖИМА*/
+    --clrindktr:#29fd53;    /*Цвет для индикатора*/
+    --clrYellow:rgb(255, 255, 0);
+    --clrWhite-Grey:#7e7e7e;
+    --clrBlack:#000000;
+    --mainBG:rgb(150, 150, 150);
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+    max-height: 75px;
+    /* background: url(1614185673_valley-landscape-mountains-gradient-background-colorful-background.jpg); */
+    background-color: var(--mainBG);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.contacts{
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    font-size: 3vh;
+    top: 275vh;
+    background-color: white;
+    left: 0;
+}
+.contacts .lista  div{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    list-style-type: none;
+    /* display: inline-block; */
+}
+.contacts .lista .phone .numb{
+    font-size: 28px;
+}
+.contacts .lista .inst .link{
+    font-size: 28px;
+}
+.contacts .lista .Copyright .text{
+    font-size: 12px;
+}
+
+
+
+
+.section_classes{
+    top: 30vw;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.container{
+    width:100%;
+    /* margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px; */
+    /* margin-bottom: 500px; */
+}
+.productWrapper{
+    margin-right: -50px;
+    width: 80%;
+    margin-left: 10%;
+    /* margin-bottom: 60px;
+    text-align: center;
+    font-size: 0; */
+    /* способ ниже не работает на всех браузерах */
+    display: inline-block;
+    /* без этого столбцы ровные */
+    /* column-gap: 20px; */
+    row-gap: 40px;
+}
+.productWrapper::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+
+.cardA{
+    margin-top: 1vw;
+    /* margin-left: 20vw; */
+
+    flex: 0 0 auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    height: 25vw;
+    max-height: 30vw;
+    background-color: white;
+    margin-bottom: 0.5vw;
+    border-radius: 10px;
+}
+
+
+
+
+.bg{
+    position: relative;
+    background-color: rgb(208, 208, 208);
+    left: 30vw;
+    top: -16vw;
+    width: 100%;
+    max-width: 45vw;
+    height: 15vw;
+    /* overflow: hidden; */
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.descriptions{
+    position: relative;
+    width: 60%;
+    max-width: 60vw;
+    height: 100%;
+}
+.descriptionA{
+    font-size: 2vw;
+    position: relative;
+    left: 1vw;
+    width: 100%;
+    overflow: hidden;
+    /* background-color: wheat; */
+    pointer-events: none;
+}
+.description2A{
+    font-size: 1.4vw;
+    position: relative;
+    margin-top: 1.5vw;
+    left: 1vw;
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+    /* background-color: wheat; */
+    pointer-events: none;
+
+}
+.buy-btnA{
+    /* background-color: rgb(25, 165, 25); */
+    /* background-color: #3E8914; */
+    background-color: black;
+    color: white;
+    font-size: 1.4vw;
+    position:relative;
+    margin-left: 30vw;
+    top: -13vw;
+    /* width: 200px; */
+    width: 12vw;
+    height: 5vw;
+    border-radius: 100px;
+}
+.block{
+    font-size: 1.2vw;
+    position: absolute;
+    top: 5.5vw;
+    margin-left: -0.1vw;
+    /* background-color: rgba(255, 0, 0, 0.1); */
+    color: black;
+    width: 12vw;
+    height: 5vw;
+    text-align: center;
+}
+.imgA img{
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    left: -25%;
+    top: -25%;
+}
+.imgA{
+    position: relative;
+    user-select: none;
+    top: 1.75vw;
+    margin-left: 1vw;
+    overflow: hidden;
+    background-color: white;
+    width: 27.5vw;
+    height: 80%;
+    
+    border-radius: 15px;
+}

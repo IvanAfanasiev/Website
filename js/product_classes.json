@@ -1,0 +1,86 @@
+    {
+    "B":
+    { 
+        "name":         "Samochód osobowy",
+        "class":        "B",
+        "description":  "Grupa A",
+        "img":          "../images/classes/B.png",
+
+        "Gorzow Wielkopolski":    true,
+        "Slubice":                false,
+        "Zielona Gora":           false,
+        "Frankfurt nad Odra":     true
+    },
+    "C":
+    { 
+        "name":         "Bus",
+        "class":        "С",
+        "description":  "Grupa B",
+        "img":          "../images/classes/C.png",
+
+        "Gorzow Wielkopolski":    true,
+        "Slubice":                false,
+        "Zielona Gora":           false,
+        "Frankfurt nad Odra":     true
+    },
+    "D":
+    { 
+        "name":         "Auta z niemecką rejestracją",
+        "class":        "В",
+        "description":  "Grupa C",
+        "img":          "../images/classes/C.png",
+
+        "Gorzow Wielkopolski":    true,
+        "Slubice":                false,
+        "Zielona Gora":           false,
+        "Frankfurt nad Odra":     true
+    },
+    "Premium":
+    { 
+        "name":         "Bus",
+        "class":        "Premium",
+        "description":  "Grupa B",
+        "img":          "../images/classes/Premium.png",
+
+        "Gorzow Wielkopolski":    true,
+        "Slubice":                false,
+        "Zielona Gora":           false,
+        "Frankfurt nad Odra":     true
+    },
+    "Busy osobowe":
+    { 
+        "name":         "Busy osobowe",
+        "class":        "Busy osobowe",
+        "description":  "Grupa B",
+        "img":          "../images/classes/Busy osobowe.png",
+
+        "Gorzow Wielkopolski":    true,
+        "Slubice":                false,
+        "Zielona Gora":           false,
+        "Frankfurt nad Odra":     true
+    },
+    "Busy dostawcze":
+    { 
+        "name":         "Busy dostawcze",
+        "class":        "Busy dostawcze",
+        "description":  "Grupa B",
+        "img":          "../images/classes/Busy dostawcze.png",
+
+        "Gorzow Wielkopolski":    true,
+        "Slubice":                false,
+        "Zielona Gora":           false,
+        "Frankfurt nad Odra":     true
+    },
+    "Lawety":
+    { 
+        "name":         "Lawet",
+        "class":        "Lawety",
+        "description":  "Grupa B",
+        "img":          "../images/classes/Lawety.png",
+
+        "Gorzow Wielkopolski":    true,
+        "Slubice":                false,
+        "Zielona Gora":           false,
+        "Frankfurt nad Odra":     true
+    }
+}

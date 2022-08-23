@@ -1,0 +1,321 @@
+:root
+{
+    --clricons:  #00b3b9;
+    --clrnght:  #222327; 
+    --clrdy:    #eeeeee;   
+    --clrindktr:#29fd53;   
+    --clrYellow:rgb(255, 255, 0);
+    --clrWhite-Grey:#7e7e7e;
+    --clrBlack:#000000;
+    --mainBG:rgb(200, 200, 200);
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+    max-height: 75px;
+    /* background: url(1614185673_valley-landscape-mountains-gradient-background-colorful-background.jpg); */
+    /* background-color: rgb(70, 70, 70); */
+    background-color: var(--mainBG);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+.header{
+    position: absolute;
+    display: flex;
+    font-size: 4vw;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    justify-content: right;
+    top: 0;
+}
+.header .name-text{
+    position: absolute;
+    /* text-shadow: rgb(0, 0, 0) 3px 3px 0, rgb(0, 0, 0) -3px -3px 0, 
+                 rgb(0, 0, 0) -3px 3px 0, rgb(0, 0, 0) 3px -3px 0; */
+
+    color:aliceblue;
+    margin-left: 3vw;
+    /* margin-top: 6vw; */
+    bottom: 10vh;
+    pointer-events: none;
+    left: 0;
+}
+.header .list{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header .list div{
+    margin-right: 10vw;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 2vw;
+    transition: 0.5s;
+    color: white;
+}
+.header .list div .text{
+    font-size: 1.8vw;
+    color: white;
+    text-decoration: none;
+
+}
+.header .list div:hover {
+    transform: translateY(-0.5vw);
+}
+
+.ico{
+    transition: 0.5s;
+    color: white;
+}
+
+.nameImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    max-height: 90vh;
+    /* top: 5vh; */
+    bottom: 0;
+}
+.nameImg img{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+}
+.nameImg_text{
+    position: absolute;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    top: 60%;
+    right: 5vw;
+    width: 30vw;
+    height: 15vw;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    border: 0.5vh solid rgba(0, 0, 0, 0.25);
+
+}
+.nameImg_text_group{
+    height: 80%;
+    font-size: 1.5vw;
+    padding-top: 10%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    text-align: left;
+    row-gap: 0px;
+    column-gap: 5vw;
+    align-items: center;
+}
+.nameImg_text1{
+    position: relative;
+    top: 1vh;
+    width: 100%;
+}
+.arrow{
+    position: relative;
+    left: 50%;
+    top: -5vh;
+    font-size: 1.5vw;
+    color: rgba(255, 255, 255, 0.5);
+}
+#arr{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+.nameImg::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(360deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.text{
+    font-size: 1vw;
+}
+.header .Logo{
+    position: absolute;
+    top: 1.25vw;
+    width: 20vh;
+    height: 8vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOR PHONES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_phone{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+    height: 10vh;
+    justify-content: right;
+    top: 0;
+}
+.header_phone::before{
+    content: '';
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.phone_menu{
+    position: absolute;
+    width: 100%;
+    height: 8.25vh;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.phone_menuActive{
+    height: 100vh;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100vw;
+    /* margin-right: 30vw; */
+    margin-top: 1.25vh;
+    background-color: rgb(45, 45, 45);
+
+    /* border-bottom-left-radius: 15vh; */
+    
+    transition: 0.5s;
+    transform: translateX(100%);
+}
+.menuActive{
+    transform: translateX(0%);
+    border-top-left-radius: 1vh;
+    border-top-right-radius: 1vh;
+}
+
+.menu .list{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.menu .list div{
+    /* margin-right: 100vh; */
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.5s;
+    color: white;
+    margin-top: 10vh;
+    /* margin-left: 30vw; */
+    width: 100%;
+    border:solid 3px black;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    border-radius: 1vh;
+}
+.menu .list div .text{
+    font-size: 5vh;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+}
+.menu-ico{
+    background-color: rgb(45, 45, 45);
+    position: absolute;
+    width: 7.1vh;
+    height: 7vh;
+    left: -7vh;
+    top: 0;
+    border-top-left-radius: 1vh;
+    border-bottom-left-radius: 1vh;
+
+    color: white;
+    text-align: center;
+
+    transition: 0.5s;
+}
+.menu-icoActive{
+    background-color: rgb(45, 45, 45);
+    transform: translateX(7vh);
+    /* border: solid 2px black; */
+    /* border-radius: 1vh; */
+}
+.menu_linesActive{
+    transform: rotate(180deg);
+}
+.menu-ico li{
+    list-style-type: none;
+    content: '';
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 1.25vh;
+    height: 0.7vh;
+    background-color: white;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+.header_phone .Logo{
+    position: absolute;
+    left: 1.25vw;
+    top: 2.5vh;
+    width: 10vh;
+    height: 4vh;
+}

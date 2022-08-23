@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Main</title>
+        <link rel="stylesheet" type="text/css" href="main/style.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="main/slider.css">
+        <link rel="stylesheet" type="text/css" href="size.css">
+        <style>html{scroll-behavior: smooth;}</style>
+    </head>
+    <body>
+            
+
+
+        <div class="nameImg">
+            
+            <img  src="images/bg.jpg"></img>
+            <div class="nameImg_text">
+                <b class="nameImg_text1">Volkswagen golf 8 gti</b>
+                <div class="nameImg_text_group">
+                    <p>
+                        Silnik 1,8l
+                        300 koni
+                    </p>
+                    <p>
+                        <b>200zł</b>
+                        <b>2000zł</b>
+                    </p>
+                </div>
+            </div>
+            <a href="#arr"><ion-icon name="chevron-down-outline" class="arrow"></ion-icon></a>
+            <div id="arr"></div>
+        </div>
+        
+
+        <div class="header">
+            <div class="name-text">
+                <img class="Logo" src="images/logo.png"></img>
+                <!-- <ion-icon name="logo-markdown"></ion-icon> -->
+            </div>
+            <ul class="list">
+                <div class="models">
+                    <a href="#cities" class="text">
+                        Modele
+                    </a>
+                </div>
+                <div class="favorite">
+                    <a href="#" class="text">
+                        Cennik
+                    </a>
+                </div>
+                <div class="chat">
+                    <a href="#contacts" class="text">
+                        Kontakt
+                    </a>    
+                </div>
+                <div class="chat">
+                    <a href="#contacts" class="text">
+                        O firmie
+                    </a>    
+                </div>
+            </ul>
+        </div>
+
+
+
+
+        
+
+
+
+
+
+
+        <div class="slider" id="slider">
+            <div class="slides">
+                <input type="radio" name="inpt" id="rad1" class="inpt" onclick="Check()">
+                <input type="radio" name="inpt" id="rad2" class="inpt" onclick="Check()">
+                <input type="radio" name="inpt" id="rad3" class="inpt" onclick="Check()">
+                <input type="radio" name="inpt" id="rad4" class="inpt" onclick="Check()">
+                
+
+                <div class="page1">
+                    <img src="images/mini_IMG_0986.JPG"></img>
+                </div>
+                <div class="page">
+                    <img src="images/mini_IMG_9443.JPG"></img>
+                </div>
+                <div class="page">
+                    <img src="images/mini_IMG_9610.JPG"></img>
+                </div>
+                <div class="page4">
+                    <img src="images/photo_2022-08-13_00-39-27.jpg"></img>
+                </div>
+                
+                <div class="auto-navigat">   
+                    <div class="autobtn1"></div>
+                    <div class="autobtn2"></div>
+                    <div class="autobtn3"></div>
+                    <div class="autobtn4"></div>
+                </div>
+
+
+
+                <div class="arrowL" onclick="PageL()"><ion-icon name="chevron-back-outline"></ion-icon></div>
+                <div class="arrowR" onclick="PageR()"><ion-icon name="chevron-forward-outline"></ion-icon></div>
+            </div>
+        </div>
+
+
+
+
+        <div class="cities_container" id="cities">
+            <ul class="cities">
+                <a class="currentCity Cities_Active" currentCity="Gorzow Wielkopolski" title="подсказка">
+                    <div class="city_text">Gorzów Wielkopolski</div>
+                </a>
+
+                <a class="currentCity" currentCity="Slubice" title="подсказка">
+                    <div class="city_text">Słubice</div>
+                </a>
+
+                <a class="currentCity" currentCity="Zielona Gora" title="подсказка">
+                    <div class="city_text">Zielona Góra</div>
+                </a>
+
+                <!-- <a class="currentCity" currentCity="Frankfurt nad Odra" title="подсказка">
+                    <b class="city_text">Frankfurt nad Odrą</b>
+                </a> -->
+
+            </ul>
+        </div>   
+
+
+
+        
+        <section class="section" id="classes">
+            <div class="container" id="models">
+                <div class="productWrapper">
+
+                
+                    <!-- it will write itself -->
+
+                        <!-- href="classes/class_list.html" -->
+                    <div class="product">
+                    
+                        <div class="text">
+                            <div class="model">
+                                <b>B</b>
+                            </div>
+                            <div class="rodzaj">
+                                <p>Grupa A</p>
+                            </div>     
+                        </div>
+                        <div class="mask"></div>
+                        <div class="img">
+                            <img src="images/classes/B.png"></img>
+                        </div>
+                        <div currentClass="samochod osobowy" class="class-btnA"></div>
+                    </div> 
+                    
+                    <div class="product">
+                        <div class="text">
+                            <div class="model">
+                                <b>C</b>
+                            </div>
+                            <div class="rodzaj">
+                                <p>Grupa B</p>
+                            </div>     
+                        </div>
+                            <div class="img">
+                                <img src="images/classes/C.png"></img>
+                            </div>
+                        <div currentClass="bus" class="class-btnA"></div>
+                    </div> 
+
+                    <div class="product">
+                        <div class="text">
+                            <div class="model">
+                                <b>D</b>
+                            </div>
+                            <div class="rodzaj">
+                                <p>Grupa C</p>
+                            </div>     
+                        </div>
+                            <div class="img">
+                                <img src="images/classes/D.png"></img>
+                            </div>
+                        <div currentClass="auta z niemecka rejestracja" class="class-btnA"></div>
+                    </div> 
+           
+                    <div class="product">
+                   
+                        <div class="text">
+                            <div class="model">
+                                <b>Premium</b>
+                            </div>
+                            <div class="rodzaj">
+                                <p>Grupa A</p>
+                            </div>     
+                        </div>
+                        <div class="mask"></div>
+                        <div class="img">
+                            <img src="images/classes/Premium.png"></img>
+                        </div>
+                        <div currentClass="samochod osobowy" class="class-btnA"></div>
+                    </div> 
+                    <div class="product">
+                   
+                        <div class="text">
+                            <div class="model">
+                                <b>Busy osobowe</b>
+                            </div>
+                            <div class="rodzaj">
+                                <p>Grupa A</p>
+                            </div>     
+                        </div>
+                        <div class="mask"></div>
+                        <div class="img">
+                            <img src="images/classes/Busy osobowe.png"></img>
+                        </div>
+                        <div currentClass="samochod osobowy" class="class-btnA"></div>
+                    </div> 
+                    <div class="product">
+                   
+                        <div class="text">
+                            <div class="model">
+                                <b>Busy dostwcze</b>
+                            </div>
+                            <div class="rodzaj">
+                                <p>Grupa A</p>
+                            </div>     
+                        </div>
+                        <div class="img">
+                            <img src="images/classes/Busy dostawcze.png"></img>
+                        </div>
+                        <div currentClass="samochod osobowy" class="class-btnA"></div>
+                    </div> 
+                    <div class="product">
+                   
+                        <div class="text">
+                            <div class="model">
+                                <b>Lawety</b>
+                            </div>
+                            <div class="rodzaj">
+                                <p>Grupa A</p>
+                            </div>     
+                        </div>
+                        <div class="img">
+                            <img src="images/classes/Lawety.png"></img>
+                        </div>
+                        <div currentClass="samochod osobowy" class="class-btnA"></div>
+                    </div> 
+                </div>
+            </div> 
+        </section>
+
+
+
+
+
+        
+
+           
+
+
+
+        <div class="contacts" id="contacts">
+            <div class="lista">
+                <div class="phone">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span class="numb">+48 123 456 789</span>
+                </div>
+                <div class="inst">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <span class="link">@instagram</span>
+                </div>
+                <div class="phone">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                    <span class="numb">@LPP_TIK_TAK</span>
+                </div>
+                <div class="Copyright">
+                    <span class="text">Copyright LPP Wypożyczalnia Samochodów © 2015</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="header_phone">
+            <img class="Logo" src="images/logo.png"></img>
+            
+        </div>
+        
+        <div class="phone_menu">
+            <div class="menu">
+                <div class="menu-ico">
+                    <li class="line"></li>
+                    <li class="line"></li>
+                    <li class="line"></li>
+                </div>
+                <ul class="list">
+                    <div class="menu_ref">
+                        <a href="#models" class="text">
+                            Modele
+                        </a>
+                    </div>
+                    <div class="menu_ref">
+                        <a href="#" class="text">
+                            Cennik
+                        </a>
+                    </div>
+                    <div class="menu_ref">
+                        <a href="#contacts" class="text">
+                            Kontakt
+                        </a>    
+                    </div>
+                    <div class="menu_ref">
+                        <a href="#contacts" class="text">
+                            O firmie
+                        </a>    
+                    </div>
+                </ul>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- from google -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<!-- from me <3 -->
+        <script src="js/jQuery.js"></script>
+
+
+<!-- it will write some code -->
+        <script src="main/main.js"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

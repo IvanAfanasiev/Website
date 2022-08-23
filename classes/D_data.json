@@ -1,0 +1,92 @@
+{
+    "OPEL MOVANO ŚREDNI":
+    { 
+        "rocznik":          2016,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "C1",
+        "Silnik":           "dobry",
+        
+        "name":             "Renault Clio Hatchback",
+        "price":            330,
+        "description":      "the first car",
+        "img":              "../images/bus/opel_movano_sredni_blaszak.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    },
+    "RENAULT MASTER ŚREDNI":
+    { 
+        "rocznik":          2014,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "C1",
+        "Silnik":           "dobry",
+
+        "name":             "Renault Clio Kombi",
+        "price":            330,
+        "description":      "2nd car",
+        "img":              "../images/bus/renault_master_max_new.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    },
+    "RENAULT MASTER MAX":
+    { 
+        "rocznik":          2013,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "D1",
+        "Silnik":           "dobry",
+
+        "name":             "Renault Captur",
+        "price":            380,
+        "description":      "car 3",
+        "img":              "../images/bus/renault_master_max_new.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    },
+    "RENAULT MASTER MAX (+WYSOKI)":
+    { 
+        "rocznik":          2016,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "D1",
+        "Silnik":           "dobry",
+
+        "name":             "Renault Megane Hatchback",
+        "price":            380,
+        "description":      "car IV",
+        "img":              "../images/bus/renault_master_new.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    },
+    "IVECO DAILY":
+    { 
+        "rocznik":          2014,
+        "Ilość drzwi":      0,
+        "Ilość pasażerów":  34, 
+        "Klimatyzacja":     "jest",
+        "Grupa cenowa":     "D1",
+        "Silnik":           "dobry",
+
+        "name":             "Renault Megane Kombi",
+        "price":            380,
+        "description":      "car",
+        "img":              "../images/bus/iveco_daily_max_2014_new.jpg",
+        "Gorzow Wielkopolski":    1,
+        "Slubice":                3,
+        "Zielona Gora":           4,
+        "Frankfurt nad Odra":     0
+    }
+}

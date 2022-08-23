@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../header.css">
+        <link rel="stylesheet" type="text/css" href="../size.css">
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="name-text">
+                <img class="Logo" src="images/logo.png"></img>
+                <!-- <ion-icon name="logo-markdown"></ion-icon> -->
+            </div>
+            <ul class="list">
+                <div class="models">
+                    <a href="#cities" class="text">
+                        Modele
+                    </a>
+                </div>
+                <div class="favorite">
+                    <a href="#" class="text">
+                        Cennik
+                    </a>
+                </div>
+                <div class="chat">
+                    <a href="#contacts" class="text">
+                        Kontakt
+                    </a>    
+                </div>
+                <div class="chat">
+                    <a href="#contacts" class="text">
+                        O firmie
+                    </a>    
+                </div>
+            </ul>
+        </div>
+
+
+
+        <div class="contacts" id="contacts">
+            <div class="lista">
+                <div class="phone">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <span class="numb">+48 123 456 789</span>
+                </div>
+                <div class="inst">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <span class="link">@instagram</span>
+                </div>
+                <div class="Copyright">
+                    <span class="text">Copyright LPP Wypożyczalnia Samochodów © 2015</span>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        <div class="container">
+            <div id image class="img">
+                <!-- <img src="../images/167947-legkovyye_avtomobili-sportkar-delorian-dms_delorian-komplektacii_avtomobilya-1920x1080.jpg"></img> -->
+                <img src="../images/2021-Renault-Megane-Sedan-Front-Three-Quarter-Wallpaper-2-1.jpg"></img>
+                <!-- <img src="../images/osobowy/renault_megane_kombi_2014_new.jpg"></img> -->
+            </div>
+            <b id="name">Renault Megane Grand Coupe 2022</b>
+            <b id="name"></b>
+            <button class="btn" onclick="SendData()">
+                <legend>zarezerwuj</legend> 
+            </button>
+
+
+            <form class="forms">
+                <div class="inpt-group">   
+                    <input type="text" class="user_data_inpt-name" for="username" placeholder="Imie" autofocus="true">
+                    <input type="email" class="user_data_inpt-email" for="email" placeholder="E-mail">
+                    <input type="tel" class="user_data_inpt-phone" for="phone" placeholder="Phone" autocomplete="pager">
+                </div>
+
+                <div class="date-group">   
+                    <!-- <label class="lbl">Od</label> -->
+                    Od <input type="datetime-local" class="date_inpt-od" for="date_OD">
+                    <!-- <label class="lbl">Do</label> -->
+                    Do <input type="datetime-local" class="date_inpt-do" for="date_DO">
+                </div>
+                
+                
+            </form>
+        </div>
+
+
+
+
+        <div class="header_phone">
+            <img class="Logo" src="images/logo.png"></img>
+            
+        </div>
+        
+        <div class="phone_menu">
+            <div class="menu">
+                <div class="menu-ico">
+                    <li class="line"></li>
+                    <li class="line"></li>
+                    <li class="line"></li>
+                </div>
+                <ul class="list">
+                    <div class="menu_ref">
+                        <a href="#models" class="text">
+                            Modele
+                        </a>
+                    </div>
+                    <div class="menu_ref">
+                        <a href="#" class="text">
+                            Cennik
+                        </a>
+                    </div>
+                    <div class="menu_ref">
+                        <a href="#contacts" class="text">
+                            Kontakt
+                        </a>    
+                    </div>
+                    <div class="menu_ref">
+                        <a href="#contacts" class="text">
+                            O firmie
+                        </a>    
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        
+
+        <script src="../js/jQuery.js"></script>
+
+        <!-- it will write some code -->
+        <script src="build.js"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*
+{
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+:root
+{
+    --clricons:  #00b3b9;    /*сделать для НОЧНОГО РЕЖИМА*/
+    --clrnght:  #222327;    /*сделать для НОЧНОГО РЕЖИМА*/
+    --clrdy:    #eeeeee;    /*сделать для ДНЕВНОГО РЕЖИМА*/
+    --clrindktr:#29fd53;    /*Цвет для индикатора*/
+    --clrYellow:rgb(255, 255, 0);
+    --clrWhite-Grey:#7e7e7e;
+    --clrBlack:#000000;
+    --transparency: 0;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0vh;
+    max-height: 75px;
+    /* background: url(1614185673_valley-landscape-mountains-gradient-background-colorful-background.jpg); */
+    /* background-color: var(--clrWhite-Grey); */
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/*  */
+
+
+
+
+.contacts{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    font-size: 36px;
+    bottom: 0;
+    background-color: white;
+    left: 0;
+    top: 100%;
+}
+.contacts .lista  div{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    list-style-type: none;
+    /* display: inline-block; */
+}
+.contacts .lista .phone .numb{
+    font-size: 28px;
+}
+.contacts .lista .inst .link{
+    font-size: 28px;
+}
+.contacts .lista .Copyright .text{
+    font-size: 12px;
+}
+
+
+
+
+
+/*  */
+
+
+
+
+
+.container{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    top: 10vw;
+    background-color: white;
+    border-radius: 10px;
+}
+.btn{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 2vw;
+    left: 73vw;
+    width: 15vw;
+    height: 5vw;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+}
+.lbl{
+    position: absolute;
+    left: 25vw;
+    margin-top: 0vw;
+}
+.img{
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    overflow: hidden;
+    left: 2vw;
+    top: 2vw;
+    border-radius: 10px;
+    background-color: black;
+}
+img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* margin-left: -50px; */
+}
+
+#name{
+    font-size: 2vw;
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 53vw;
+    width: 20vw;
+}
+
+
+.forms{
+    position: absolute;
+    top: 20vw;
+    width: 100%;
+}
+.inpt-group{
+    position: absolute;
+    margin-top: -10vw;
+    margin-left: 74vw;
+    text-align: center;
+    width: 1vw;
+}
+.inpt-group input{
+    position: relative;
+    margin-top: 3vw;
+}
+
+
+.date-group{
+    position: relative;
+    margin-top: -9.25vw;
+    margin-left: 53vw;
+    width: 13vw;
+    text-align: center;
+}
+.date-group input{
+    position: relative;
+    margin-top: 3vw;
+}
+
+.btn-primary{
+    position: relative;
+    margin-left: 40%;
+    margin-top: 10px;
+}

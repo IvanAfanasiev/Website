@@ -1,0 +1,147 @@
+@media only screen and (max-width: 10000px){
+    .header_phone{
+        opacity: 0;
+        width: 0%;
+    }
+    .phone_menu{
+        opacity: 0;
+        height: 0;
+    }
+    .cities_container{
+        top: 225vh;
+    }
+    .section{
+        top: 240vh;
+    }
+    .contacts{
+        top: 350vh;
+    }
+}
+@media only screen and (max-width: 2560px){
+    .cities_container{
+        top: 200vh;
+    }
+    .section{
+        top: 220vh;
+    }
+}
+
+@media only screen and (max-width: 2000px){
+    .cities_container{
+        top: 215vh;
+    }
+    .section{
+        top: 230vh;
+    }
+}
+
+@media only screen and (max-width: 1490px){
+    .cities_container{
+        top: 205vh;
+    }
+    .section{
+        top: 225vh;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .nameImg{
+        height: 75%;
+        top: 5vh;
+    }
+    .slider{
+        top: 85vh;
+    }
+    .cities_container{
+        top: 180vh;
+    }
+    .section{
+        top: 200vh;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .nameImg{
+        height: 60%;
+    }
+    .slider{
+        top: 70vh;
+    }
+    .cities_container{
+        top: 150vh;
+    }
+    .section{
+        top: 170vh;
+    }
+}
+
+@media only screen and (max-width: 730px){
+    .cities_container{
+        top: 130vh;
+    }
+    .section{
+        top: 155vh;
+    }
+    .contacts{
+        top: 380vh;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .header{
+        opacity: 0;
+    }
+    .header_phone{
+        opacity: 1;
+        width: 100%;
+    }
+    .phone_menu{
+        opacity: 1;
+        height: 8.25vh;
+    }
+    .cities_container{
+        top: 125vh;
+    }
+    .section{
+        top: 160vh;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .nameImg{
+        opacity: 0;
+    }
+    .slider{
+        top: 15vh;
+    }
+    .cities_container{
+        top: 60vh;
+    }
+    .section{
+        top: 100vh;
+    }
+    .cities a{
+        border-radius: 1vh;
+    }
+}
+@media only screen and (max-width: 500px){
+    .cities_container{
+        top: 50vh;
+    }
+    .section{
+        top: 90vh;
+    }
+    .contacts{
+        top: 330vh;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .cities_container{
+        top: 85vw;
+    }
+    .section{
+        top: 170vw;
+    }
+    
+}
